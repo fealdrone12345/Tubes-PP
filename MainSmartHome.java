@@ -154,7 +154,7 @@ public class MainSmartHome {
         if (pilihanRuangan < 1
                 || pilihanRuangan > sistem.getDaftarRuangan().size()) {
 
-            System.out.println("Nomor ruangan tidak tersedia!");
+            System.out.println("Nomor Ruangan Tidak Tersedia!");
             return;
         }
 
